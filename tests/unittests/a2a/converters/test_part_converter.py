@@ -1251,3 +1251,6 @@ class TestThoughtSignaturePreservation:
     assert result.function_call.name == "invalid_sig_tool"
     # thought_signature should be None due to decode failure
     assert result.thought_signature is None
+
+
+# CI fork dry-run trigger (no-op); see TODO remove this test branch.
